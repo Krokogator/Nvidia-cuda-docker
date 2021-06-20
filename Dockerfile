@@ -19,8 +19,4 @@ COPY main.py /app/
 COPY PetImages /app/PetImages
 WORKDIR /app
 
-#ENV NUM_EPOCHS=10
-#ENV MODEL_TYPE='EfficientDet'
-#ENV DATASET_LINK='HIDDEN'
-#ENV TRAIN_TIME_SEC=100
 CMD ["python3", "main.py"]
